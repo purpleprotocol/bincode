@@ -72,7 +72,7 @@
 //!
 
 #![doc(html_root_url = "https://docs.rs/bincode/2.0.0-rc.1")]
-#![crate_name = "bincode"]
+#![crate_name = "bincode-purplecoin"]
 #![crate_type = "rlib"]
 
 #[cfg(feature = "alloc")]

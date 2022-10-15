@@ -40,7 +40,7 @@ serde_alloc = ["serde_incl/alloc", "alloc"] # alloc
 serde_no_std = ["serde_incl"] # no_std
 
 [dependencies]
-bincode_derive = { path = "derive", version = "2.0.0-rc.1", optional = true }
+bincode_derive_purplecoin = { path = "derive", version = "2.0.0-rc.2", optional = true }
 serde_incl = { package = "serde", version = "1.0", default-features = false, optional = true }
 
 # Used for tests

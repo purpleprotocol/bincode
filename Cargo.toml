@@ -28,7 +28,7 @@ default = ["std", "derive", "atomic"]
 std = ["alloc"]
 alloc = []
 atomic = []
-derive = ["bincode_derive"]
+derive = ["bincode_derive_purplecoin"]
 
 # BlockedTODO: https://github.com/rust-lang/cargo/issues/8832
 # We want to enable these features automatically based on "alloc" or "std"
